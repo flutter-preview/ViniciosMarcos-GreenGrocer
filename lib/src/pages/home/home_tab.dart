@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as Badge;
 import 'package:flutter/material.dart';
 import 'package:greengrocer/src/config/custom_colors.dart';
 import 'package:greengrocer/src/pages/home/components/category_tile.dart';
@@ -54,7 +54,7 @@ class _HomeTabState extends State<HomeTab> {
             ),
             child: GestureDetector(
               onTap: () {},
-              child: Badge(
+              child: Badge.Badge(
                 badgeColor: CustomColors.customContrastColor,
                 badgeContent: const Text(
                   '2',
