@@ -90,6 +90,7 @@ List<OrderModel> orders = [
     overdueDateTime: DateTime.parse('2023-06-21 10:00:00'),
     items: [
       CartItemModel(item: apple, quantity: 2),
+      CartItemModel(item: mango, quantity: 2),
     ],
     status: 'pending_payment',
     copyAndPaste: 'q1w2e3r4t5y6',
