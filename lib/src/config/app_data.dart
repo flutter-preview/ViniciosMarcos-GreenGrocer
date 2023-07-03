@@ -86,13 +86,13 @@ UserModel user = UserModel(
 List<OrderModel> orders = [
   OrderModel(
     id: 'asd1fgh2jkl3',
-    createdDateTime: DateTime.parse('2023-06-21 10:00:00'),
-    overdueDateTime: DateTime.parse('2023-06-21 10:00:00'),
+    createdDateTime: DateTime.parse('2024-06-21 10:00:00'),
+    overdueDateTime: DateTime.parse('2024-06-21 10:00:00'),
     items: [
       CartItemModel(item: apple, quantity: 2),
       CartItemModel(item: mango, quantity: 2),
     ],
-    status: 'refunded',
+    status: 'preparing_purchase',
     copyAndPaste: 'q1w2e3r4t5y6',
     total: 0,
   ),
@@ -104,7 +104,7 @@ List<OrderModel> orders = [
       CartItemModel(item: guava, quantity: 2),
       CartItemModel(item: kiwi, quantity: 2),
     ],
-    status: 'paid',
+    status: 'pending_payment',
     copyAndPaste: 'q1w2e3r4t5y6',
     total: 0,
   ),
